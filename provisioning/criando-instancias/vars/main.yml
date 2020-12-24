@@ -1,2 +1,9 @@
 ---
 # vars file for criando-instancias
+instance_type: t2.medium
+sec_group_name: scorpion
+image: ami-0be2609ba883822ec
+keypair: aws-scorpion
+region: us-east-1
+count: 3
+profile: scorpion
